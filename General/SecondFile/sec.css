@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#ul_first {
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(49, 88, 88) ;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+
+}
+
+#ul_first>li:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+#sec_1 {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    width: 80%;
+    height: 100vh;
+    align-self: center;
+    background-color: rgb(98, 122, 122);
+    margin-top: 2%;
+    margin-left: 10%;
+    border: solid rgb(0, 0, 0) 1px;
+}
+
+
+#button0 {
+    text-align: center;
+    width: 12%;
+    height: 5%;
+    font-size: 18px;
+    background-color: rgb(76, 122, 122);
+    border: none;
+    color: white;
+
+}
+
+
+#button0:hover {
+    background-color: rgb(95, 136, 136);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#ques{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10%;
+    color:white ;
+}
+
+
+.quiz{
+    width: 50%;
+    height: auto;
+    border:none;
+    background-color: azure;
+    border-radius: 10px;
+    margin-left: 25%;
+    
+}
+
+.quiz-header{
+    width: 100%;
+    height: 8vh;
+    background-color:rgb(49, 88, 88) ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.quiz-list{
+    list-style-type: none;
+}
+
+.title{
+text-align: center;
+padding-top: 3%;
+color: white;
+font-family: 'Courier New', Courier, monospace;
+font-size: 18px;
+
+}
+
+.quiz-submit {
+    width: 100%;
+    height: 8vh;
+    background-color:rgb(49, 88, 88) ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    
+
+}
+
+.quiz-submit:hover{
+    cursor: pointer;
+    background-color:rgb(51, 73, 73)  ;
+}
+
+.quiz-list>li{
+    width: 100%;
+    height:10vh ;
+    padding: 5%;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.quiz-list>li:hover{
+    background-color: rgb(205, 212, 219);
+    cursor: pointer;
+}
+
+input:hover{
+    cursor: pointer;
+}
+span:hover{
+    cursor: pointer;
+}
+
+.summary{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top:20%;
+    color: white;
+    padding-bottom: 4%;
+}
+.result{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    color: white;
+
+}
+
+#about{
+    color: rgb(195, 248, 248);
+    font-weight: bold;
+}
+
+
